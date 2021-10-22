@@ -12,5 +12,4 @@ public class GasStation {
         c.setFuel(liter);
         return liter * price;
     }
-
 }
