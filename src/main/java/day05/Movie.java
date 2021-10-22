@@ -3,15 +3,15 @@ package day05;
 public class Movie {
 
     private final String title;
-    private final int date;
+    private final int year;
     private int ratingsCount;
     private int sumOfRatings;
 
     private double averageRatings;
 
-    public Movie(String title, int date) {
+    public Movie(String title, int year) {
         this.title = title;
-        this.date = date;
+        this.year = year;
         ratingsCount = 0;
         sumOfRatings = 0;
     }
@@ -32,8 +32,8 @@ public class Movie {
         return title;
     }
 
-    public int getDate() {
-        return date;
+    public int getYear() {
+        return year;
     }
 
     public int getRatingsCount() {
