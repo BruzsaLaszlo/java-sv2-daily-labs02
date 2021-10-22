@@ -22,4 +22,5 @@ public class Car {
     public double getAverageFuelConsumption() {
         return fuel / ((double) distance / 100);
     }
+
 }

@@ -13,4 +13,5 @@ public class TestMain {
 
         System.out.println("Átlagfogyasztás: " + car.getAverageFuelConsumption());
     }
+
 }
